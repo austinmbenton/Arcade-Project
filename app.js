@@ -136,7 +136,7 @@ const element = document.getElementById('start');
 function tick (currentTime) {
     if (gameOver) {
         if (confirm('Game Over. Press ok to restart')) {
-        window.location = 'http://127.0.0.1:5500/project_06/arcade/index.html'
+        window.location = './'
     }
     return
 }
